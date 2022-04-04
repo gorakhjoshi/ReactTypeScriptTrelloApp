@@ -1,7 +1,7 @@
-import React from "react";
+import { AppContainer } from "./styles/styles";
 
 function App() {
-  return <div>App</div>;
+  return <AppContainer>App</AppContainer>;
 }
 
 export default App;
