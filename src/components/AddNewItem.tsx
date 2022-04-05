@@ -8,7 +8,7 @@ interface AddNewItemProps {
   dark: boolean;
 }
 
-const AddNewItem = () => ({ toggleButtonText, dark, onAdd }: AddNewItemProps) {
+function AddNewItem({ toggleButtonText, dark, onAdd }: AddNewItemProps) {
   const [showForm, setShowForm] = useState(false);
 
   if (showForm) {
