@@ -10,7 +10,7 @@ function Column({ text, children }: React.PropsWithChildren<ColumnProps>) {
     <ColumnContainer>
       <ColumnTitle>{text}</ColumnTitle>
       {children}
-      <AddNewItem toggleButtonText="+Add another task" dark onAdd={() => {}} />
+      <AddNewItem toggleButtonText="+Add another task: test" dark onAdd={() => {}} />
     </ColumnContainer>
   );
 }
